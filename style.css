@@ -13,7 +13,7 @@ body
 
 .right 
 {
-    margin-top: 16px;
+    margin-top: 20px;
     display: flex;
     justify-content: flex-end;
     
@@ -29,6 +29,16 @@ a
     padding-right: 20px;
     text-decoration: none;
     margin-bottom: 0;
+    margin-top: 5px;
+}
+
+a:link{
+    color: rgba(0,0,0,.90);
+
+}
+
+a:visited{
+    color: rgba(0,0,0,.90);
 }
 
 a p 
@@ -65,7 +75,7 @@ a p:hover
    font-family: Arial,sans-serif;
    font-weight: bold;
    color: white;
-   
+   margin-top: px;
 }
 
 
@@ -124,7 +134,9 @@ input
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    margin: 0 10px;
 }
+
 
 .btn-search button:hover 
 {
